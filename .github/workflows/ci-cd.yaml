@@ -3,7 +3,7 @@ name: Continious intergration and Deployment
 on:
   push:
     branches:
-      -master 
+      - master 
 
 jobs:
   build:
