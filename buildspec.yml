@@ -8,10 +8,3 @@ phases:
         commands:
             - dotnet build -c Release ./dotnetgithubactionscode/dotnetgithubactionscode.csproj
             - dotnet test -c Release ./dotnetGithubactionscode.test/dotnetGithubactionscode.test.csproj
-
- artifacts:
-  files:
-    - '**/*'
-  base-directory: base_dir
-  name: build-artifact-name
-  discard-paths: no
