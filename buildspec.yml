@@ -6,5 +6,5 @@ phases:
             dotnet: latest
     build:
         commands:
-            - dotnet build -c Release --no-restore
-            - dotnet test -c Release --no-build
+            - dotnet build -c Release ./dotnetgithubactionscode/dotnetgithubactionscode.csproj
+            - dotnet test -c Release ./dotnetGithubactionscode.test/dotnetGithubactionscode.test.csproj
