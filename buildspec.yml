@@ -11,6 +11,6 @@ phases:
 
 artifacts: 
      files:
-      - '**/*'
+      - ./**/*
       - .ebextensions/**/*
  
